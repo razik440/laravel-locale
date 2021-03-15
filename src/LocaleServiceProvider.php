@@ -19,7 +19,7 @@ class LocaleServiceProvider extends RouteServiceProvider
      */
     public function boot()
     {
-        parent::boot();
+        //parent::boot();
 
         /*
          * Cоздаем префикс для всех маршрутов и устанавливаем посредника
@@ -28,7 +28,7 @@ class LocaleServiceProvider extends RouteServiceProvider
 
         Route::prefix(LocaleMiddleware::getLocale())
             ->middleware(LocaleMiddleware::class, 'web')
-            ->namespace('App\Http\Controllers')
+            //->namespace('App\Http\Controllers')
             ->group(base_path('routes/web.php'));
 
         //Загружаем свой файл маршрутов после загрузки сервисов
