@@ -1,5 +1,5 @@
 {
-    "name": "klisl/laravel-locale",
+    "name": "razik440/laravel-locale",
     "description": "Creating a multilanguage for the site Laravel-5",
 	"type": "library",
 	"keywords": [
@@ -8,14 +8,6 @@
 		"language"
     ],
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Sergey Klimenchuk",
-            "email": "ksl80@ukr.net",
-			"homepage": "",
-			"role": "Developer"
-        }
-    ],
 	"require": {
         "php": ">=5.4.0",
 	"laravel/framework": "^8.12"
