@@ -19,7 +19,7 @@
 	"minimum-stability": "stable",
 	"require": {
         "php": ">=5.4.0",
-		"laravel/framework": "^8.0"
+	"laravel/framework": "^8.12"
     },
 	"extra": {
       "laravel": {
