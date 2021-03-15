@@ -20,7 +20,7 @@ laravel-locale
 Установка пакета с помощью Composer.
 
 ```
-composer require klisl/laravel-locale
+composer require razik440/laravel-locale
 ```
 
 Если версия Laravel меньше чем 5.5 - добавьте в файл `config/app.php` вашего проекта в конец массива `providers` :
